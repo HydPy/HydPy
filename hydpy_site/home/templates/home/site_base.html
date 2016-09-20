@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'base.html' %}
 
-</body>
-</html>
+{% block content %}
+    {% include 'home/header.html' %}
+    {% block site_content %}{% endblock %}
+
+
+    {% include 'home/footer.html' %}
+
+{% endblock %}
