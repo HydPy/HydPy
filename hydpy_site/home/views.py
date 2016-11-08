@@ -8,5 +8,10 @@ def home_page(request):
 def about_page(request):
     return render(request, 'home/about.html', {})
 
+
 def events_page(request):
     return render(request, 'home/events.html', {})
+
+
+def faqs_page(request):
+    return render(request, 'home/faqs.html', {})
