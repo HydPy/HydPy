@@ -29,8 +29,8 @@ https://chat.whatsapp.com/BuiY7n6qDvw0dXPfSbqzyv
 Yes, Subscription will help you to receive the updates about the upcoming workshop or activities conducted by the group.
 
 
-5) What kind of activities will this site help promote?
-
+5) What kind of activities will this group help promote?
+Anything and everything related to python.
 
 6) Can i participate to give sessions?
 Of course you can , just subscribe to the above links and get in touch with us. Session topics should be relevant to Python Programming Language and its related technologies.

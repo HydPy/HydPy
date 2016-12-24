@@ -8,7 +8,7 @@ SITEURL = ''  # Intentionally left blank, see ./publishconf.py
 
 PATH = 'content'
 
-TIMEZONE = 'Africa/Nairobi'
+TIMEZONE = 'Asia/Kolkata'
 DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
@@ -18,6 +18,7 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+INDEX_SAVE_AS = 'article_home.html'
 ARTICLE_URL = 'posts/{slug}.html'
 ARTICLE_SAVE_AS = ARTICLE_URL
 ARTICLE_LANG_URL = 'posts/{slug}-{lang}.html'
@@ -55,8 +56,10 @@ THEME = 'themes/pelican-alchemy/alchemy'
 #SITESUBTITLE = 'A magical \u2728 Pelican theme'
 SITESUBTITLE = 'Community driven group for promoting python in Hyderabad.'
 SITEIMAGE = '/images/profile.jpg width=200 height=200'
-DESCRIPTION = 'A functional, clean, responsive theme for Pelican. Heavily ' \
-              'inspired by crowsfoot and clean-blog, powered by Bootstrap.'
+DESCRIPTION = 'Hyderabad Python User group is growing and active Python user community in Hyderabad.'\
+              'We believe in Knowledge is power, community is strength!!!'\
+              'Meet other local Python developers, learners, employers, and enthusiasts of all kinds.'\
+              'All skill levels are welcome: if you are interested in Python, we are interested in you!'
 
 LINKS = (
     #('Pelican', 'http://getpelican.com/'),
@@ -68,7 +71,6 @@ ICONS = [
     ('github', 'https://github.com/HydPy/'),
     ('facebook', 'https://www.facebook.com/HydPy/'),
     ('meetup', 'https://www.meetup.com/Hyderabad-Python-Meetup-Group/'),
-    ('email', 'https://mail.python.org/mm3/mailman3/lists/hydpy.python.org/')
 ]
 
 PYGMENTS_STYLE = 'monokai'
