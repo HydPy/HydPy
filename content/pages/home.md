@@ -31,4 +31,4 @@ In addition to meeting face-to-face, and the email mailing list, we have a few o
 For mailing list etiquettes ([We recommend](https://www.shakthimaan.com/downloads/glv/presentations/mailing-list-etiquette.pdf)).
 
 
-Job postings on the mailing list are OK, as long as they meet te Job Posting Requirements.
+Job postings on the mailing list are OK, as long as they meet the Job Posting Requirements.
