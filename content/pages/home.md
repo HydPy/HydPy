@@ -32,3 +32,9 @@ For mailing list etiquettes ([We recommend](https://www.shakthimaan.com/download
 
 
 Job postings on the mailing list are OK, as long as they meet the Job Posting Requirements.
+
+## Other Python Promoters
+
+** [Python Express](https://pythonexpress.in/) ** :  PythonExpress brings tutors, organizations and students together to spread the love of Python far and wide. Request python workshop in your college and community experts based on their availability will devlier the same.
+
+** [Python Software Society of india](https://pssi.org.in/) ** : A non-profit organization that promotes the Python programming language in India with various activities and manages the annual PyCon India conference.

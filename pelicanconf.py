@@ -62,8 +62,8 @@ DESCRIPTION = 'Hyderabad Python User group is growing and active Python user com
               'All skill levels are welcome: if you are interested in Python, we are interested in you!'
 
 LINKS = (
-    #('Pelican', 'http://getpelican.com/'),
-    #('Python.org', 'http://python.org/'),
+    ('PythonExpress', 'https://pythonexpress.in/'),
+    ('pssi.org.in', 'https://pssi.org.in/'),
     #('Jinja2', 'http://jinja.pocoo.org/'),
 )
 
