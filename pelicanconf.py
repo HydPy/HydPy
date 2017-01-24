@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from __future__ import unicode_literals
+import bootstrapify
 
 AUTHOR = 'Hydpy'
 SITENAME = 'HydPy'
@@ -41,7 +42,7 @@ EXTRA_PATH_METADATA = {
 }
 
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['pelican-bootstrapify']
+PLUGINS = [bootstrapify]
 
 BOOTSTRAPIFY = {
     'table': ['table', 'table-striped', 'table-hover'],

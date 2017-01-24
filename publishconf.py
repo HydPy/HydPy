@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'https://hydpy.org'
+SITEURL = 'http://hydpy.org'
 RELATIVE_URLS = False
 
 FEED_DOMAIN = SITEURL
