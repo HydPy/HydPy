@@ -1,11 +1,11 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: SOLID.
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: HydPy
+description: "Community driven group for promoting python in Hyderabad."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
-url: "http://yourdomain.com"
+url: "http://www.hydpy.org"
 
 # Build settings
 markdown: kramdown
@@ -34,16 +34,12 @@ collections:
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
-  - title: dribbble
-    url:
+  - title: meetup
+    url: https://www.meetup.com/Hyderabad-Python-Meetup-Group/
   - title: facebook
-    url:
-  - title: twitter
-    url:
-  - title: instagram
-    url:
-  - title: tumblr
-    url:
+    url: https://www.facebook.com/HydPy/
+  - title: github
+    url: https://github.com/HydPy/
 
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
@@ -97,18 +93,22 @@ members:
         url: http://twitter.com/handle
 
 # Clients information. Shown on Home and About pages.
-clients:
-  - name: dribbble
-    img: client01.png
-  - name: Code is Poetry
-    img: client02.png
-  - name: Vimeo
-    img: client03.png
-  - name: VimeoPro
-    img: client04.png
+pygroups:
+  - name: pssi
+    img: pssi_logo.png
+    url: https://pssi.org.in
+  - name: pydelhi
+    img:
+    url: https://pydelhi.org
+  - name: PythonPune
+    img:
+    url: http://pune.python.org.in
+  - name: Chennaipy
+    img: chennaipy.png
+    url: http://www.chennaipy.org
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+about: "Hyderabad Python User group is growing and active Python user community in Hyderabad. We believe in 'Knowledge is power, community is strength'!!!"
 
 # Testimonial content. Shown on Home and About page.
 testimonial:

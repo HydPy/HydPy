@@ -7,6 +7,9 @@ __pycache__/
 *.so
 Icon*
 _site/
+.idea/
+.DS_Store
+.jekyll-meta*
 
 # Distribution / packaging
 .Python
