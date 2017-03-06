@@ -8,14 +8,21 @@ layout: default
     <div class="row">
         <! -- SINGLE POST -->
         <div class="col-lg-8">
-            <! -- Blog Post  -->
-            <p><img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.img }}"></p>
-            <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
-            <p><csmall>{{ page.date | date: "%b %-d, %Y" }}. | By: {{ page.author }}</csmall></p>
-              
+            <! -- Events Post  -->
+            <p><img class="img-responsive" src="{{ "/assets/img/events/" | prepend: site.baseurl }}{{ page.img }}"></p>
+            <a href="{{ page.url | prepend: site.baseurl }}"><h2 class="ctitle">{{ page.title }}</h2></a>
+            <h3>{{ page.date | date: "%b %-d, %Y" }}. | By: {{ page.presenter }}</h3>
+            <h4>Venue: <a href="{{ page.location }}">{{ page.venue }}</a></h4>
+            <h4>Meetup: <a href="{{ page.meetup }}">link</a></h4>
+
             {{ content }}
 
             <div class="spacing"></div>
+
+            {% if page.location-embedded %}
+               <iframe src={{page.location-embedded}} width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            {% endif %}
+
             <!-- <h6>SHARE:</h6>
             <p class="share">
                 <a href="#"><i class="fa fa-twitter"></i></a>

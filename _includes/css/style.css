@@ -218,7 +218,7 @@ a:focus {
 #headerwrap {
 	background-color: {{ site.colors.primary }};
 	min-height: 0px;
-	padding-top: 100px;
+	padding-top: 10px;
 	padding-bottom: 50px;
 	text-align: center;
 }
@@ -316,7 +316,7 @@ a:focus {
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 450px;
+	min-height: 300px;
 	width: 100%;
 	
     -webkit-background-size: 100%;

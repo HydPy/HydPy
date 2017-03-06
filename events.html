@@ -1,22 +1,24 @@
 ---
-layout: blog
-title: Blog
-permalink: /blog/
+layout: events
+title: Events
+permalink: /events/
 ---
 
 <div class="container mtb">
     <div class="row">
 
-        <! -- BLOG POSTS LIST -->
+        <! -- Events POSTS LIST -->
         <div class="col-lg-8">
 
             {% for post in site.posts %}
-                <! -- Blog Post -->
+                <! -- Events Post -->
                 <a href="{{ post.url | prepend: site.baseurl }}">
-                    <img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}">
+                    <img class="img-responsive" src="{{ "/assets/img/events/" | prepend: site.baseurl }}{{ post.img }}">
                 </a>
                 <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
-                <p><csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall></p>
+                <p><csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.presenter }}</csmall></p>
+                <p><csmall>Venue:<a href="{{ post.location }}">{{ post.venue }}</a></csmall></p>
+                <p><csmall>Meetup:<a href="{{ post.meetup }}">link</a></csmall></p>
                 {{ post.excerpt }}
                 <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
                 <div class="hline"></div>
