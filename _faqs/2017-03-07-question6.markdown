@@ -1,0 +1,6 @@
+---
+layout: faqs
+title:  "Can i participate to give sessions?"
+---
+
+Of course you can , just subscribe to the above links and get in touch with us. Session topics should be relevant to Python Programming Language and its related technologies.

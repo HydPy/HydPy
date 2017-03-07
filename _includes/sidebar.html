@@ -8,7 +8,7 @@
     <div class="spacing"></div> -->
     <h4>Categories</h4>
     <div class="hline"></div>
-    {% for category in site.categories %}
+    {% for category in site.categories limit:10%}
         <p>
             <a href="{{ '/category/#'  | prepend: site.baseurl  }}{{ category | first }}"><i class="fa fa-angle-right"></i> {{ category | first | capitalize }}</a>
             <span class="badge badge-theme pull-right">{{ category | last | size }}</span>

@@ -23,17 +23,15 @@ colors:  #in hex code if not noted else
 
 # Making projects separate from posts
 collections:
-  projects:
+  faqs:
     output: true
-    permalink: /projects/:title/
-  questions:
-    output: true
-    permalink: /questions/:title/
 
 ### CONTACT SETTINGS ###
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
+  - title: github
+    url: https://github.com/HydPy/
   - title: meetup
     url: https://www.meetup.com/Hyderabad-Python-Meetup-Group/
   - title: facebook
@@ -66,6 +64,6 @@ about: "Hyderabad Python User group is growing and active Python user community 
 
 # Testimonial content. Shown on Home and About page.
 testimonial:
-    message: "Python is an experiment in how much freedom programmers need. Too much freedom and nobody can read another's code; too litle and expressiveness endangered."
+    message: "Python is an experiment in how much freedom programmers need. Too much freedom and nobody can read another's code; too little and expressiveness endangered."
     author: Guido van Rossum
     position: Creator of Python

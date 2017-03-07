@@ -1,0 +1,16 @@
+---
+layout: faqs
+title:  "Do you have subscription list?"
+---
+Yes, below are the links.
+
+* [Mailing List](https://mail.python.org/mm3/mailman3/lists/hydpy.python.org/)
+
+* [Git Hub](https://github.com/HydPy/)
+
+* [Facebook Page](https://www.facebook.com/hydpy)
+
+* [Meetup Group Page](http://www.meetup.com/Hyderabad-Python-Meetup-Group/)
+
+* [Whatsapp Group Invitation](https://chat.whatsapp.com/BuiY7n6qDvw0dXPfSbqzyv)
+

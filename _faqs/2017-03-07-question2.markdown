@@ -1,0 +1,6 @@
+---
+layout: faqs
+title:  "How will this site help me?"
+---
+This site is for anybody who wants to learn or share their knowledge about Python Programming Language, Discuss about The about their new projects, seek and provide help to other python enthusiast's like you.
+

@@ -1,0 +1,6 @@
+---
+layout: faqs
+title:  "I have no knowledge of Python nor i am python enthusiast, Can I still subscribe?"
+---
+
+Yes, Subscription will help you to receive the updates about the upcoming workshop or activities conducted by the group.
