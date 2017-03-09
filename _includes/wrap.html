@@ -1,7 +1,11 @@
-<div id="blue">
+<div id="headerwrap">
     <div class="container">
-        <div class="row">
-            <h3>{% if page.wrap_title %}{{ page.wrap_title }}{% else %}{{ page.title }}{% endif %}</h3>
+        {% include navbase.html %}
+
+        <div class="row" style="padding-top:120px;">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h1>{% if page.wrap_title %}{{ page.wrap_title }}{% else %}{{ page.title }}{% endif %}</h1>
+            </div>
         </div><!-- /row -->
     </div> <!-- /container -->
-</div><!-- /blue -->
+</div>

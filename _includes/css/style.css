@@ -191,8 +191,8 @@ a:focus {
 }
 
 .mtb {
-	margin-top: 80px;
-	margin-bottom: 80px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .mb {
@@ -216,10 +216,10 @@ a:focus {
 ################################################################# */
 
 #headerwrap {
-	background-color: {{ site.colors.primary }};
+	background-color: {{ site.colors.secondary }};
 	min-height: 0px;
 	padding-top: 10px;
-	padding-bottom: 50px;
+	padding-bottom: 10px;
 	text-align: center;
 }
 
