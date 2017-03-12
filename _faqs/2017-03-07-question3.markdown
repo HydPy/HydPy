@@ -1,12 +1,12 @@
 ---
 layout: faqs
-title:  "Do you have subscription list?"
+title:  "Do you have a list of links that I can subscribe to?"
 ---
 Yes, below are the links.
 
 * [Mailing List](https://mail.python.org/mm3/mailman3/lists/hydpy.python.org/)
 
-* [Git Hub](https://github.com/HydPy/)
+* [GitHub](https://github.com/HydPy/)
 
 * [Facebook Page](https://www.facebook.com/hydpy)
 

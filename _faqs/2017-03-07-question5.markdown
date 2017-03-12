@@ -1,6 +1,6 @@
 ---
 layout: faqs
-title:  "What kind of activities will this group help promote?"
+title:  "What kind of activities would this group help to promote?"
 ---
 
-Anything and everything related to python.
+Anything and everything related to Python.
