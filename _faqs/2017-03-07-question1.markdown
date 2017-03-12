@@ -2,4 +2,4 @@
 layout: faqs
 title:  "What is this site about?"
 ---
-HydPy.org is about the Hyderabad Python User Group, here you will find all the cool stuff related this group like past and upcoming activities/Workshops, Meetup events, Technical Blogs and Discussion forums.
+[HydPy.org](http://hydpy.org/) is the official home page of the Hyderabad Python User Group. Here, you will find all the information about the group - past and upcoming activities/workshops, meetup events, blogs and discussion forums.
