@@ -28,7 +28,7 @@ Even bad code can function. But if code isn’t clean, it can bring a developmen
 In this talk, I’ll try summarise the age old wisdom of writing beautiful code using python examples.
 
 
-<b>Speaker :</b>  Trupti, Developer, Bank of America
+<b>Speaker :</b>  Manivannan E, VP, Bank of America
 
 ------------------------
 <b>Lightning Talk : SQLAlchemy</b>
