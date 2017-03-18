@@ -25,7 +25,7 @@ We can enhance our code by using the 76 builtin functions or write our own funct
 
 In this session, we will take you through the journey of writing from builtin functions to user-defined functions to decortors.
 
-<b>Speaker:  Udhay Prakash Pethakamsetty, Sr. Engineer, Infor Global Solutions</b>
+<b>Speaker:  Udhay Prakash Pethakamsetty, Sr. DevOps Engineer, CA Technologies</b>
 
 -------------------------------------------------------
 <b>Parallel programming in python:- </b>
