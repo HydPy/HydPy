@@ -3,7 +3,7 @@
 # Site settings
 title: HydPy
 description: "Community driven group for promoting python in Hyderabad."
-analytics: #Google analytics code in the format XX-nnnnnnnn-n
+analytics: UA-25759569-4 #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
 url: ""
 
