@@ -7,6 +7,10 @@ analytics: UA-25759569-4 #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
 url: ""
 
+# gems setting to generate sitemap
+gems:
+  - jekyll-sitemap
+
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title
