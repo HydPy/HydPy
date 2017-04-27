@@ -10,7 +10,7 @@ meetup: https://www.meetup.com/Hyderabad-Python-Meetup-Group/events/239460973/
 categories:
 - Python 
 - Django
-img: python_basic.png
+img: django.unicorn.jpg
 thumb: thumb01.png
 ---
 
