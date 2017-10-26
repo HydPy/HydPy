@@ -1,14 +1,14 @@
 # HydPy
 HydPy - Hyderabad Python User Group Website
 
-##Dev Setup
+## Dev Setup
 TODO
 
-##Usage
+## Usage
 This theme can be customized, built and published straight from GitHub, thanks to [GitHub Pages](https://pages.github.com/). A local installation of Jekyll isn't even necessary!
 
-####Customize  
-#####Event post
+#### Customize  
+##### Event post
 Create a Event post by creating a file called `yyyy-mm-dd-name-of-post-like-this.markdown` in the `/_posts/` directory with the following template:
 ```markdown
 ---
@@ -32,14 +32,15 @@ This text will appear in the excerpt "Event preview" on the Events page that lis
 <!--more-->
 This text will not be shown in the excerpt because it is after the excerpt separator.
 ```
-#####FAQ Question entry
+##### FAQ Question entry
 Create a Question entry (that is listed in the Frequently Asked section on the Home page) in this directory by creating a file called `yyyy-mm-dd-do-i-have-a-question.markdown` in the `/_faq/` directory with the following template:
 ```markdown
 ---
 layout: question
 title:  "Do I have a question?"
 ---
-####Can I use this theme for my website?
+
+Can I use this theme for my website?
 Of course you can!
 ```
 
