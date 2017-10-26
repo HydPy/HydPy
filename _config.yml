@@ -8,7 +8,7 @@ baseurl: "" #important: start with /
 url: ""
 
 # gems setting to generate sitemap
-gems:
+plugins:
   - jekyll-sitemap
 
 # Build settings
