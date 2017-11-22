@@ -6,6 +6,7 @@ description: "Community driven group for promoting python in Hyderabad."
 analytics: UA-25759569-4 #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
 url: ""
+future: true
 
 # gems setting to generate sitemap
 gems:
