@@ -5,7 +5,7 @@
             {% for group in site.pygroups %}
                 <div class="col-lg-3 col-md-3 col-sm-3">
                     {% if group.img %}
-                        <a href="{{ client.url }}">
+                        <a href="{{ group.url }}">
                             <img src="{{ "/assets/img/groups/" | prepend: site.baseurl }}{{ group.img }}" class="img-responsive">
                         </a>
                     {% else%}

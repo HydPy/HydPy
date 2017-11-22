@@ -53,10 +53,10 @@ email-list: https://mail.python.org/mm3/mailman3/lists/hydpy.python.org/
 
 # Clients information. Shown on Home and About pages.
 pygroups:
-  - name: pssi
-    img: pssi_logo.png
-    url: https://pssi.org.in
-  - name: pydelhi
+  - name: Python Software Foundation
+    img: psf_logo.png
+    url: https://www.python.org/psf/
+  - name: PyDelhi
     img:
     url: https://pydelhi.org
   - name: PythonPune
