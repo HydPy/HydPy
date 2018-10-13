@@ -1,14 +1,20 @@
-# HydPy
-HydPy - Hyderabad Python User Group Website
+# HydPy Website
+Website of HydPy - _Hyderabad Python User Group_
 
 ## Dev Setup
-TODO
+The site uses [jekyll](https://jekyllrb.com/) a simple and popular static website generator which can be hosted via [github pages](https://pages.github.com/). You can quickly start developing by pushing your code to the `gh-pages` branch of your repo. Then go to the `Settings` tab of your GitHub account, scroll down to the `GitHub Pages` section and choose `gh-pages` as source. But this will need you to push the code to gh-pages everytime you wish to test out a change.
 
-## Usage
-This theme can be customized, built and published straight from GitHub, thanks to [GitHub Pages](https://pages.github.com/). A local installation of Jekyll isn't even necessary!
+We **recommend** doing development in offline. For that you need ruby to be installed in your local since jekyll is a ruby gem. Follow these steps for installation in local.
 
-#### Customize  
-##### Event post
+1. Install Ruby as per this [installation guide](https://www.ruby-lang.org/en/documentation/installation/). For Linux, Mac OSX it's preferable to use [RVM](https://rvm.io/) and for Windows you can use [RubyInstaller](https://rubyinstaller.org/)
+2. Run `gem install bundler jekyll`. This install bundler and jekyll.
+3. Run `bundle install`
+4. Run `bundle exec jekyll serve` to start the server
+5. Site is up and running! Go to `localhost:4000`
+
+## Adding Content
+
+### Event post
 Create a Event post by creating a file called `yyyy-mm-dd-name-of-post-like-this.markdown` in the `/_posts/` directory with the following template:
 ```markdown
 ---
@@ -32,8 +38,9 @@ This text will appear in the excerpt "Event preview" on the Events page that lis
 <!--more-->
 This text will not be shown in the excerpt because it is after the excerpt separator.
 ```
-##### FAQ Question entry
-Create a Question entry (that is listed in the Frequently Asked section on the Home page) in this directory by creating a file called `yyyy-mm-dd-do-i-have-a-question.markdown` in the `/_faq/` directory with the following template:
+
+### FAQ Question entry
+Create a Question entry (that is listed in the Frequently Asked section on the Home page) in this directory by creating a file called `yyyy-mm-dd-do-i-have-a-question.markdown` in the `/_faqs/` directory with the following template:
 ```markdown
 ---
 layout: question
