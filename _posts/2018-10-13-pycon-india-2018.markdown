@@ -1,0 +1,26 @@
+---
+layout: post
+title: "PyCon India 2018"
+venue: "HICC, Hyderabad"
+location: "https://www.google.com/maps/place/Hyderabad+International+Convention+Centre+(HICC)/@17.4522571,78.366159,13z/data=!4m8!1m2!2m1!1shicc+hyderabad!3m4!1s0x3bcb922df075a857:0x4ee11f87406cbdf1!8m2!3d17.4728898!4d78.3733243"
+location-embedded: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.491206362724!2d78.37209238371312!3d17.472905996090688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb922df075a857%3A0x4ee11f87406cbdf1!2sHyderabad+International+Convention+Centre+(HICC)!5e0!3m2!1sen!2sin!4v1539417320738"
+date: 2018-10-06 10:00:00
+presenter: "Hyderabad Python User Group"
+meetup: https://www.facebook.com/events/448089715618381/
+categories:
+- PyCon India
+- Conference
+- Python
+img: pyconindia2018.png
+thumb: thumb01.png
+---
+
+PyCon India, the premier conference in India on using and developing the Python programming language.
+<!--more-->
+PyCon India, the premier conference in India on using and developing the Python programming language is conducted annually by the Python developer community and it attracts the best Python programmers from across the country and abroad. In year 2018, it was organized by python community in Hyderabad - "Hyderabad Python User Group".
+
+
+
+
+
+[hampden]: https://github.com/jekyll/jekyll
