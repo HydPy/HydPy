@@ -131,6 +131,28 @@ a:focus {
 	border-color: transparent;
 }
 
+.navbar-toggle {
+	border: none;
+	margin: 0;
+	padding: 18px 26px 18px 11px;
+}
+
+.navbar-toggle .icon-bar {
+	background-color: {{ site.colors.link }};
+    -webkit-transition: background-color .4s linear;
+    -o-transition: background-color .4s linear;
+    transition: background-color .4s linear;
+}
+
+.navbar-toggle:hover .icon-bar,
+.navbar-toggle:focus .icon-bar {
+	background-color: {{ site.colors.link_hover }};
+}
+
+.navbar-toggle .icon-bar + .icon-bar {
+	margin-top: 6px;
+}
+
 .dropdown-menu {
 	background: {{ site.colors.secondary }};
 }
