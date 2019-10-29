@@ -61,10 +61,10 @@ pygroups:
     url: https://pydelhi.org
   - name: PythonPune
     img:
-    url: http://pune.python.org.in
+    url: https://pune.python.org.in
   - name: Chennaipy
     img: chennaipy.png
-    url: http://www.chennaipy.org
+    url: https://www.chennaipy.org
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "Hyderabad Python User group is growing and active Python user community in Hyderabad. We believe in 'Knowledge is power, community is strength'!!!"
