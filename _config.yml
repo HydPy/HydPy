@@ -66,6 +66,11 @@ pygroups:
     img: chennaipy.png
     url: https://www.chennaipy.org
 
+sponsors:
+  - name: Zulip
+    img: zulip-org-logo.png
+    url: https://zulipchat.com
+
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "Hyderabad Python User group is growing and active Python user community in Hyderabad. We believe in 'Knowledge is power, community is strength'!!!"
 
