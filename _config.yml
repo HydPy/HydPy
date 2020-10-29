@@ -44,7 +44,7 @@ social:
   - title: twitter
     url: https://www.twitter.com/HydPython/
   - title: telegram
-    url: https://t.me/joinchat/Gp-MT0JQtcvcBA44LTL-8g
+    url: https://bit.ly/join-hydpy
 
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 email: hydpy@python.org
@@ -61,10 +61,15 @@ pygroups:
     url: https://pydelhi.org
   - name: PythonPune
     img:
-    url: http://pune.python.org.in
+    url: https://pune.python.org.in
   - name: Chennaipy
     img: chennaipy.png
-    url: http://www.chennaipy.org
+    url: https://www.chennaipy.org
+
+sponsors:
+  - name: Zulip
+    img: zulip-org-logo.png
+    url: https://zulipchat.com
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "Hyderabad Python User group is growing and active Python user community in Hyderabad. We believe in 'Knowledge is power, community is strength'!!!"

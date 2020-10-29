@@ -8,8 +8,8 @@
 	URL: http://alvarez.is
 	
 ################################################################# */ 
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,900);
-@import url(http://fonts.googleapis.com/css?family=Lato:400,900);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900);
 @import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
 
@@ -129,6 +129,28 @@ a:focus {
 .navbar-default {
 	background-color: {{ site.colors.secondary }};
 	border-color: transparent;
+}
+
+.navbar-toggle {
+	border: none;
+	margin: 0;
+	padding: 18px 26px 18px 11px;
+}
+
+.navbar-toggle .icon-bar {
+	background-color: {{ site.colors.link }};
+    -webkit-transition: background-color .4s linear;
+    -o-transition: background-color .4s linear;
+    transition: background-color .4s linear;
+}
+
+.navbar-toggle:hover .icon-bar,
+.navbar-toggle:focus .icon-bar {
+	background-color: {{ site.colors.link_hover }};
+}
+
+.navbar-toggle .icon-bar + .icon-bar {
+	margin-top: 6px;
 }
 
 .dropdown-menu {
@@ -346,8 +368,8 @@ a:focus {
 #cwrap {
 	background: #f7f7f7;
 	margin-top: 0px;
-	padding-top: 80px;
-	padding-bottom: 100px;
+	padding-top: 20px;
+	padding-bottom: 40px;
 }
 
 #cwrap h3 {
@@ -504,4 +526,9 @@ a.anchor{
     position: relative; 
     top: -80px; 
     visibility: hidden;
+}
+
+.justify-content-center {
+	display: flex;
+    justify-content: center !important;
 }

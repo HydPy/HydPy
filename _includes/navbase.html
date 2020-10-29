@@ -6,9 +6,9 @@
         <span class="icon-bar"></span>
       </button>
        <a class="navbar-brand" href="{{ "/"  | prepend: site.baseurl }}">
-        <img style="width:200px; height:100px;" src="{{ "/assets/img/hydpy4.png" | prepend: site.baseurl }}"></a>
+        <img src="{{ "/assets/img/hydpy.png" | prepend: site.baseurl }}"></a>
     </div>
-    <div class="navbar-collapse collapse navbar-right">
+    <div class="navbar-collapse collapse navbar-right" style="margin-top:50px;">
       <ul class="nav navbar-nav">
         <li {% if page.title == "Home" %}class="active"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">HOME</a></li>
         <li {% if page.title == "Events" %}class="active"{% endif %}><a href="{{"/events/" | prepend: site.baseurl }}">EVENTS</a></li>
