@@ -10,17 +10,10 @@ permalink: /
             <h2>What we do?</h2>
             <div class="col-md-6">
                 <i class="fa fa-comments" aria-hidden="true"></i>
-                <span class="sr-only">Monthly presentation series</span>
+                <span class="sr-only">Monthly talk series & project nights</span>
                 <h4>Monthly presentation series</h4>
-                <p>These are longish presentations (about an hour) about topics of interest to the community. Often we also have lightning talks (5-15 minutes) also. If you have something you'd like to share with everyone, drop a line to the organizers!</p>
-                <p><br/><a href="/events/" class="btn btn-theme">More Info</a></p>
-            </div>
-            <div class="col-md-6">
-                <i class="fa fa-tasks" aria-hidden="true"></i>
-                <span class="sr-only">Monthly informal project nights</span>
-                <h4>Monthly informal project nights</h4>
-                <p>These are a chance to sit down with other Python developers of all experience levels to push your project forward, get help with a particular trouble spot, share expertise, or do whatever else you like.</p>
-                <p><br/><a href="/events/" class="btn btn-theme">More Info</a></p>
+                <p>These are longish presentations (about an hour) about topics of interest to the community. Often we also have lightning talks (5-15 minutes) also. If you have something you'd like to share with everyone, drop a line to the organizers! Additionally, we organize project nights sometimes, where we get a chance to sit down with other Python developers of all experience levels to push your project forward, get help with a particular trouble spot, share expertise, or do whatever else you like.</p>
+                <p><br/><a href="https://www.meetup.com/hydpygroup/events/past/" class="btn btn-theme">More Info</a></p>
             </div>
         </div>
     </div><! --/container -->
@@ -53,7 +46,7 @@ permalink: /
             {% for post in site.posts limit:3 %}
                 <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
             {% endfor %}
-            <p><br/><a href="{{ "/events/" | prepend: site.baseurl }}" class="btn btn-theme">Events</a></p>
+            <p><br/><a href="{{ "https://www.meetup.com/hydpygroup/events/past/" | prepend: site.baseurl }}" class="btn btn-theme">Events</a></p>
         </div>
 
     </div><! --/row -->

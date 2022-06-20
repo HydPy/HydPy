@@ -11,7 +11,7 @@
     <div class="navbar-collapse collapse navbar-right" style="margin-top:50px;">
       <ul class="nav navbar-nav">
         <li {% if page.title == "Home" %}class="active"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">HOME</a></li>
-        <li {% if page.title == "Events" %}class="active"{% endif %}><a href="{{"/events/" | prepend: site.baseurl }}">EVENTS</a></li>
+        <li {% if page.title == "Events" %}class="active"{% endif %}><a href="{{"https://www.meetup.com/hydpygroup/events/past/" | prepend: site.baseurl }}">EVENTS</a></li>
           <li {% if page.title == "About" %}class="active"{% endif %}><a href="{{"/about/" | prepend: site.baseurl }}">ABOUT</a></li>
           <li> <a target="_blank" href="https://goo.gl/forms/zQHG8hI0lckXHZZE2" >GIVE A TALK</a></li>
           <li> <a target="_blank" href="https://github.com/HydPy/HydPy-meetups/issues/new?title=Talk%20Request:%20%3Ctitle%3E&body=%3Cdescription%3E" >REQUEST A TALK</a></li>
