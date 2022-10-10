@@ -10,10 +10,15 @@ permalink: /
             <h2>What we do?</h2>
             <div class="col-md-6">
                 <i class="fa fa-comments" aria-hidden="true"></i>
-                <span class="sr-only">Monthly talk series & project nights</span>
-                <h4>Monthly presentation series</h4>
+                <h4>Monthly Talk Events & Project Nights</h4>
                 <p>These are longish presentations (about an hour) about topics of interest to the community. Often we also have lightning talks (5-15 minutes) also. If you have something you'd like to share with everyone, drop a line to the organizers! Additionally, we organize project nights sometimes, where we get a chance to sit down with other Python developers of all experience levels to push your project forward, get help with a particular trouble spot, share expertise, or do whatever else you like.</p>
                 <p><br/><a href="https://www.meetup.com/hydpygroup/events/past/" class="btn btn-theme">More Info</a></p>
+            </div>
+            <div class="col-md-6">
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+                <h4>PyConf Hyderabad</h4>
+                <p>PyConf Hyderabad is the regional conference for the community that uses and develops the open-source Python Programming Language. The Conference is a tribute to the community and the people who have made the community special. We organize this conference every year with an array of Talks and Keynote Speakers from around the country. Check out the PyConf Hyderbad Website to know more.</p>
+                <p><br/><a href="https://pyconf.hydpy.org/" class="btn btn-theme">More Info</a></p>
             </div>
         </div>
     </div><! --/container -->
@@ -24,14 +29,14 @@ permalink: /
 
 <div class="container mtb">
     <div class="row">
-        <div class="col-lg-4 col-lg-offset-1">
+        <div class="col-lg-6">
             <h4>More About Our Community</h4>
             <div class="hline"></div>
             <p>{{ site.about }}</p>
             <p><br/><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-theme">About Us</a></p>
         </div>
 
-        <div class="col-lg-3">
+        <div class="col-lg-6">
             <h4>Frequently Asked</h4>
             <div class="hline"></div>
             {% for question in site.faqs limit:3%}
@@ -40,14 +45,14 @@ permalink: /
             <p><br/><a href="{{ "/faqs/" | prepend: site.baseurl }}" class="btn btn-theme">Faqs</a></p>
         </div>
 
-        <div class="col-lg-3">
+        <!-- <div class="col-lg-3">
             <h4>Latest Events</h4>
             <div class="hline"></div>
             {% for post in site.posts limit:3 %}
                 <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
             {% endfor %}
             <p><br/><a href="{{ "https://www.meetup.com/hydpygroup/events/past/" | prepend: site.baseurl }}" class="btn btn-theme">Events</a></p>
-        </div>
+        </div> -->
 
     </div><! --/row -->
 </div><! --/container -->
