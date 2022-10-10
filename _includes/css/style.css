@@ -532,3 +532,7 @@ a.anchor{
 	display: flex;
     justify-content: center !important;
 }
+
+.group-img {
+	height: 90px;
+}
