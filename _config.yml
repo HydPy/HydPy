@@ -38,13 +38,15 @@ social:
   - title: github
     url: https://github.com/HydPy/
   - title: meetup
-    url: https://www.meetup.com/hydpy/
+    url: https://www.meetup.com/HydPyGroup/
   - title: facebook
     url: https://www.facebook.com/HydPy/
   - title: twitter
     url: https://www.twitter.com/HydPython/
   - title: telegram
     url: https://t.me/HydPy
+  - title: linkedin
+    url: https://www.linkedin.com/company/hydpy/
 
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 email: hydpy@python.org
