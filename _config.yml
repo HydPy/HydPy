@@ -17,14 +17,6 @@ markdown: kramdown
 permalink: /:categories/:title
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
-colors:  #in hex code if not noted else
-  primary: "#356ea1" #"#F70031"
-  primary_rgb: "0,115,200" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
-  secondary: "#384452" #"#33004D"
-  link: "#428bca"
-  link_hover: "#01b2fe"
-  footer_heading: "#ffffff"
-  footer_content: "#bfc9d3"
 
 # Making projects separate from posts
 collections:
@@ -41,8 +33,8 @@ social:
     url: https://www.meetup.com/HydPyGroup/
   - title: facebook
     url: https://www.facebook.com/HydPy/
-  - title: twitter
-    url: https://www.twitter.com/HydPython/
+  - title: x-twitter
+    url: https://www.x.com/HydPython/
   - title: telegram
     url: https://t.me/HydPy
   - title: linkedin
@@ -52,14 +44,13 @@ social:
 email: hydpy@python.org
 email-list: https://mail.python.org/mm3/mailman3/lists/hydpy.python.org/
 
-
 # Clients information. Shown on Home and About pages.
 pygroups:
   - name: Python Software Foundation
-    img: psf_logo.png
+    img: psf.png
     url: https://www.python.org/psf/
   - name: PyDelhi
-    img:
+    img: pydelhi.png
     url: https://pydelhi.org
   - name: PythonPune
     img: PythonPune_banner.svg
@@ -70,7 +61,7 @@ pygroups:
 
 sponsors:
   - name: Zulip
-    img: zulip-org-logo.png
+    img: zulip.png
     url: https://zulipchat.com
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
@@ -78,6 +69,6 @@ about: "Hyderabad Python User group is growing and active Python user community 
 
 # Testimonial content. Shown on Home and About page.
 testimonial:
-    message: "Python is an experiment in how much freedom programmers need. Too much freedom and nobody can read another's code; too little and expressiveness endangered."
-    author: Guido van Rossum
-    position: Creator of Python
+  message: "Python is an experiment in how much freedom programmers need. Too much freedom and nobody can read another's code; too little and expressiveness endangered."
+  author: Guido van Rossum
+  position: Creator of Python

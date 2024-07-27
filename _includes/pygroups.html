@@ -1,16 +1,13 @@
-<div class="container mtb">
-    <div class="row centered">
+<div class="container my-5">
+    <div class="row text-center">
         <h3>Other Python Promoters</h3>
         {% for group in site.pygroups %}
-            <div class="col-lg-3 col-md-3 col-sm-3">
-                {% if group.img %}
-                    <a href="{{ group.url }}">
-                        <img src="{{ "/assets/img/groups/" | prepend: site.baseurl }}{{ group.img }}" class="img-responsive center-block group-img">
-                    </a>
-                {% else%}
-                <a href="{{ group.url }}"><h1>{{ group.name}} </h1></a>
-                {% endif%}
-            </div>
+        <div class="col-lg-3 my-4">
+            <a class="nav-link" href="{{ group.url }}" target="_blank">
+                <img class="py-group-logo" src="{{ '/assets/img/groups/' | prepend: site.baseurl }}{{ group.img }}"
+                    alt="{{ group.name }} logo">
+            </a>
+        </div>
         {% endfor %}
-    </div><! --/row -->
-</div><! --/container -->
+    </div>
+</div>

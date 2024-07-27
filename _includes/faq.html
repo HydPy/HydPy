@@ -1,0 +1,20 @@
+<div class="faq-container">
+    <h2 class="text-center">Frequently Asked</h2>
+    <div class="accordion mt-4" id="faq-accordion">
+        {% for question in site.faqs %}
+        <div class="accordion-item">
+            <p class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq-{{forloop.index}}" aria-expanded="false" aria-controls="faq-{{forloop.index}}">
+                    {{ question.title }}
+                </button>
+            </p>
+            <div id="faq-{{forloop.index}}" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
+                <div class="accordion-body">
+                    <p>{{ question.excerpt }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

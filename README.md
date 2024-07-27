@@ -6,7 +6,7 @@ The site uses [jekyll](https://jekyllrb.com/) a simple and popular static websit
 
 We **recommend** doing development in offline. For that you need ruby to be installed in your local since jekyll is a ruby gem. Follow these steps for installation in local.
 
-1. Install Ruby as per this [installation guide](https://www.ruby-lang.org/en/documentation/installation/). For Linux, Mac OSX it's preferable to use [RVM](https://rvm.io/) and for Windows you can use [RubyInstaller](https://rubyinstaller.org/)
+1. Install Ruby 3.1.6 as per this [installation guide](https://www.ruby-lang.org/en/documentation/installation/). For Linux, Mac OSX it's preferable to use [RVM](https://rvm.io/) and for Windows you can use [RubyInstaller](https://rubyinstaller.org/)
 2. Run `gem install bundler jekyll`. This install bundler and jekyll.
 3. Run `bundle install`
 4. Run `bundle exec jekyll serve` to start the server

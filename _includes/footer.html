@@ -1,30 +1,30 @@
-<div id="footerwrap">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4">
-                <h4>About</h4>
-                <div class="hline-w"></div>
-                <p>{{ site.about }}</p>
-            </div>
-            <div class="col-lg-4">
-                <h4>Social Links</h4>
-                <div class="hline-w"></div>
-                <p>
-                    {% for network in site.social %}
-                        <a href="{{ network.url }}" class="btn-social btn-outline">
-                          <i class="fa fa-{{ network.title }}" aria-hidden="true"></i>
-                          <span class="sr-only">{{network.title}}</span>
-                        </a>
-                    {% endfor %}
-                </p>
-            </div>
-            <div class="col-lg-4">
-                <h4>Our Mailing List</h4>
-                <div class="hline-w"></div>
-                <p>
-                    <a href={{site.email-list}}>{{site.email}}</a>
-                </p>
-            </div>
-        </div><! --/row -->
-    </div><! --/container -->
-</div><! --/footerwrap -->
+<div class="footer-container">
+    <div class="row justify-content-center">
+        <div class="col-lg-3 mt-3">
+            <h5>About</h5>
+            <div class="h-line"></div>
+            <p>{{ site.about }}</p>
+        </div>
+        <div class="col-lg-3 mt-3">
+            <h5>Social Links</h5>
+            <div class="h-line"></div>
+            <p>
+                {% for network in site.social %}
+                <a href="{{ network.url }}" class="social-link" target="_blank">
+                    <i class="fa-brands fa-{{ network.title }} fs-2" aria-hidden="false"></i>
+                    <span class="sr-only">{{network.title}}</span>
+                </a>
+                {% endfor %}
+            </p>
+        </div>
+        <div class="col-lg-3 mt-3">
+            <h5>Our Mailing List</h5>
+            <div class="h-line"></div>
+            <p>
+                <a class="nav-link light p-0" href={{site.email-list}} target="_blank">
+                    {{site.email}}
+                </a>
+            </p>
+        </div>
+    </div>
+</div>

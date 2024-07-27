@@ -1,0 +1,206 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900);
+
+$colors: (
+	primary: #3E77A3,
+	primary_rgb: "rgb(62, 119, 163)",
+	secondary: #CCAD33,
+	white: #FFFFFF,
+	black: #000000,
+	text_dark: #333333,
+	text_light: #FFFFFF
+);
+
+$screen_widths: (
+	md: 768px,
+	lg: 992px,
+);
+
+// HTML TAGS
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: map-get($colors, text_dark);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+
+// BOOTSTRAP CLASSES
+
+.text-primary {
+	color: map-get($colors, primary) !important; // To add precedence as important is added in bootstrap
+}
+
+.text-secondary {
+	color: map-get($colors, secondary) !important; // To add precedence as important is added in bootstrap
+}
+
+.bg-primary {
+	background-color: map-get($colors, primary) !important; // To add precedence as important is added in bootstrap
+}
+
+.bg-secondary {
+	background-color: map-get($colors, secondary) !important; // To add precedence as important is added in bootstrap
+}
+
+.btn {
+	padding: 0.10rem 0.5rem;
+
+	&.primary {
+		color: map-get($colors, text_light);
+		background-color: map-get($colors, primary);
+
+		&:hover {
+			background-color: darken(map-get($colors, primary), 10%);
+		}
+	}
+
+	&.secondary {
+		color: map-get($colors, text_light);
+		background-color: map-get($colors, secondary);
+
+		&:hover {
+			background-color: darken(map-get($colors, secondary), 10%);
+		}
+	}
+}
+
+.accordion-button:not(.collapsed) {
+	background-color: map-get($colors, primary);
+	color: map-get($colors, text_light);
+}
+
+.accordion-button:not(.collapsed)::after {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e")
+}
+
+.navbar-nav .nav-item {
+	align-self: center;
+	margin: 0 2rem;
+	font-size: 1.1rem;
+}
+
+.nav-link {
+	&.light {
+		color: map-get($colors, text_light) !important;
+	}
+
+	&.dark {
+		color: map-get($colors, black) !important;
+		&.active {
+			color: map-get($colors, primary) !important;
+		}
+	}
+
+	&.active {
+		text-decoration: underline;
+	}
+}
+
+// CUSTOM CLASSES
+// NAVBAR
+#navbar-logo {
+	display: none;
+}
+
+#navbar-dropdown-logo {
+	display: inline-block;
+}
+
+@media (max-width: map-get($screen_widths, lg)) {
+	#navbar-logo {
+		display: inline-block;
+	}
+
+	#navbar-dropdown-logo {
+		display: none;
+	}
+}
+
+// HERO BANNER
+.hero-banner {
+	background-image: url('../img/hero-banner.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	align-content: center;
+	height: 70vh;
+	color: map-get($colors, text_light);
+}
+
+// WHAT WE DO
+.more-info {
+	display: none;
+	justify-content: center;
+
+	&.horizontal {
+		@media (min-width: map-get($screen_widths, md)) {
+			display: flex;
+		}
+	}
+
+	&.vertical {
+		@media (max-width: (map-get($screen_widths, md) - 1)) {
+			display: flex;
+		}
+	}
+}
+
+// PYTHON PROMOTERS
+.py-group-logo {
+	height: 5rem;
+}
+
+// SPONSOR
+.sponsor-logo {
+	height: 5rem;
+}
+
+// FAQ
+.faq-container {
+	width: 65%;
+	margin: 0 auto;
+	margin-top: 5em;
+
+	@media (max-width: map-get($screen_widths, lg)) {
+		width: 80%;
+	}
+
+	@media (max-width: map-get($screen_widths, md)) {
+		width: 90%;
+	}
+}
+
+// FOOTER
+.footer-container {
+	padding: 3rem;
+	background-color: darken(map-get($colors, primary), 10%);
+	color: map-get($colors, text_light);
+
+	p {
+		font-size: .875rem;
+	}
+}
+
+.h-line {
+	border-bottom: 1.5px solid rgba(255, 255, 255, .5);
+	margin-bottom: 1rem;
+}
+
+.social-link {
+	color: inherit;
+	margin-right: .75em;
+
+	:hover {
+		color: map-get($colors, white)
+	}
+}

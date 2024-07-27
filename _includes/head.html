@@ -1,31 +1,26 @@
 <head>
-    <meta name="google-site-verification" content="Spv4rOBbK1s5jQqp-exyOu6PNU2O9U8JCqBRD0ohxeA" />
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="{{ "/assets/ico/favicon.ico" | prepend: site.baseurl }}">
+  <meta name="google-site-verification" content="Spv4rOBbK1s5jQqp-exyOu6PNU2O9U8JCqBRD0ohxeA" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
 
-    <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+  <!-- Assets -->
+  <link rel="shortcut icon" href="{{ '/assets/favicon/favicon.ico' | prepend: site.baseurl }}">
+  <link href="{{ '/assets/css/bootstrap/bootstrap.min.css' | prepend: site.baseurl }}" rel="stylesheet">
+  <link href="{{ '/assets/fontawesome/css/fontawesome.css' | prepend: site.baseurl }}" rel="stylesheet" />
+  <link href="{{ '/assets/fontawesome/css/brands.css' | prepend: site.baseurl }}" rel="stylesheet" />
+  <link href="{{ '/assets/fontawesome/css/solid.css' | prepend: site.baseurl }}" rel="stylesheet" />
+  <link href="{{ '/assets/css/styles.css' | prepend: site.baseurl }}" rel="stylesheet">
 
-    <!-- Bootstrap core CSS -->
-    <link href="{{ "/assets/css/bootstrap.css" | prepend: site.baseurl }}" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="{{ "/assets/css/style1.css" | prepend: site.baseurl }}" rel="stylesheet">
-    <link href="{{ "/assets/css/font-awesome.min.css" | prepend: site.baseurl }}" rel="stylesheet">
-    
-    <!-- Custom CSS -->
-    <!--<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">-->
-
-
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag("js", new Date());
+    gtag("config", "{{ site.analytics }}");
+  </script>
 </head>
