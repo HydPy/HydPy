@@ -12,4 +12,4 @@ Yes, below are the links.
 
 * [Meetup Group Page](http://www.meetup.com/Hyderabad-Python-Meetup-Group/)
 
-* [Telegram Group Invitation](https://bit.ly/joinhydpy)
+* [Telegram Group Invitation](https://t.me/HydPy)

@@ -1,18 +1,13 @@
-<div id="cwrap">
-    <div class="container centered">
+<div class="container my-5">
+    <div class="row text-center">
         <h3>Our Sponsors</h3>
-        <div class="row justify-content-center">
-            {% for sponsor in site.sponsors %}
-                <div class="col-lg-3 col-md-3 col-sm-3">
-                    {% if sponsor.img %}
-                        <a href="{{ sponsor.url }}">
-                            <img src="{{ "/assets/img/sponsors/" | prepend: site.baseurl }}{{ sponsor.img }}" class="img-responsive">
-                        </a>
-                    {% else%}
-                    <a href="{{ sponsor.url }}"><h1>{{ sponsor.name}} </h1></a>
-                    {% endif%}
-                </div>
-            {% endfor %}
-        </div><! --/row -->
-    </div><! --/container -->
-</div><! --/cwrap -->
+        {% for sponsor in site.sponsors %}
+        <div class="my-4">
+            <a class="nav-link" href="{{ sponsor.url }}" target="_blank">
+                <img class="sponsor-logo" src="{{ '/assets/img/sponsors/' | prepend: site.baseurl }}{{ sponsor.img }}"
+                    alt="{{ sponsor.name }} logo">
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
