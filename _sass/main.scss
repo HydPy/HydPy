@@ -204,3 +204,6 @@ h6 {
 		color: map-get($colors, white)
 	}
 }
+
+// Import Bento Grid Styles
+@import "bento";

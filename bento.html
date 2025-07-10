@@ -1,0 +1,30 @@
+---
+layout: base
+title: Quick Links
+permalink: /bento/
+---
+
+<div class="container-fluid py-5">
+  <div class="container">
+    <div class="bento__grid">
+      <!-- Render all bento grid items from configuration -->
+      {% for item in site.data.bento_grid %}
+      <!-- {{ item.title }} -->
+      <a href="{{ item.url }}" class="bento__link" {% if item.external %}target="_blank"{% endif %}>
+        <div class="bento__item {% if item.size %}bento__item--{{ item.size }}{% endif %} {{ item.background }} {{ item.text_color }}">
+          <div class="bento__content">
+            <i
+              class="{{ item.icon }} bento__content__icon bento__content__icon--{% if item.size == 'large' %}large{% else %}medium{% endif %} mb-3"
+            ></i>
+            <h{% if item.size == 'large' %}3{% else %}4{% endif %} class="bento__content__heading">{{ item.title }}</h{% if item.size == 'large' %}3{% else %}4{% endif %}>
+            <p class="bento__content__text">
+              {{ item.description }}
+            </p>
+            <span class="bento__content__btn btn {{ item.button_class }}">{{ item.button_text }}</span>
+          </div>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</div>

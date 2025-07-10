@@ -1,0 +1,79 @@
+- title: "About HydPy"
+  url: "/about/"
+  icon: "fas fa-users"
+  background: "bg-secondary"
+  text_color: "text-white"
+  description: "Discover our community and mission"
+  button_text: "Explore"
+  button_class: "btn-light"
+  external: false
+
+- title: "Call for Papers"
+  url: "/cfp/"
+  icon: "fas fa-microphone"
+  background: "bento__bg--purple"
+  text_color: ""
+  description: "Submit your talk proposals"
+  button_text: "Submit"
+  button_class: "btn-light"
+  external: false
+
+- title: "Code of Conduct"
+  url: "/coc/"
+  icon: "fas fa-handshake"
+  background: "bento__bg--pink"
+  text_color: ""
+  description: "Our community guidelines"
+  button_text: "Read"
+  button_class: "btn-light"
+  external: false
+
+- title: "Venue Collab"
+  url: "/venue-partner.html"
+  icon: "fas fa-map-marker-alt"
+  background: "bento__bg--orange"
+  text_color: ""
+  description: "Collaborate with us for the event"
+  button_text: "View"
+  button_class: "btn-light"
+  external: false
+
+- title: "GitHub"
+  url: "https://github.com/hydpy"
+  icon: "fab fa-github"
+  background: "bg-dark"
+  text_color: "text-white"
+  description: "View our code repositories"
+  button_text: "Visit"
+  button_class: "btn-light"
+  external: true
+
+- title: "Twitter"
+  url: "https://twitter.com/hydpython"
+  icon: "fab fa-twitter"
+  background: "bg-info"
+  text_color: "text-white"
+  description: "Follow us for updates"
+  button_text: "Follow"
+  button_class: "btn-light"
+  external: true
+
+- title: "Learn Python"
+  url: "https://python.org"
+  icon: "fab fa-python"
+  background: "bg-warning"
+  text_color: "text-dark"
+  description: "Resources for beginners"
+  button_text: "Start"
+  button_class: "btn-dark"
+  external: true
+
+- title: "Contact Us"
+  url: "mailto:contact@hydpy.org"
+  icon: "fas fa-envelope"
+  background: "bento__bg--pink"
+  text_color: "text-white"
+  description: "Get in touch with the team"
+  button_text: "Email"
+  button_class: "btn-light"
+  external: false

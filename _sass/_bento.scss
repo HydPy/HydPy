@@ -1,0 +1,277 @@
+// Import color variables from main.scss
+$colors: (
+	primary: #3E77A3,
+	primary_rgb: "rgb(62, 119, 163)",
+	secondary: #CCAD33,
+	white: #FFFFFF,
+	black: #000000,
+	text_dark: #333333,
+	text_light: #FFFFFF
+);
+
+$screen_widths: (
+	md: 768px,
+	lg: 992px,
+);
+
+// BENTO GRID STYLES
+// Following BEM convention:
+// Block: bento
+// Elements: bento__grid, bento__item, bento__content, etc.
+// Modifiers: bento__item--large, bento__item--tall, etc.
+
+// Main container
+.bento__grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	grid-auto-rows: minmax(240px, auto);
+	gap: 1.5rem;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 1rem;
+
+	@media (min-width: map-get($screen_widths, md)) {
+		grid-template-columns: repeat(3, 1fr);
+		grid-auto-rows: minmax(220px, auto);
+	}
+
+	@media (min-width: map-get($screen_widths, lg)) {
+		grid-template-columns: repeat(4, 1fr);
+		grid-auto-rows: minmax(200px, auto);
+	}
+}
+
+// Individual card item
+.bento__item {
+	border-radius: 16px;
+	padding: 1.5rem;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	height: 100%;
+	
+	&:hover {
+		transform: translateY(-5px);
+		box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+	}
+
+	// Modifiers for different card sizes
+	&--large {
+		@media (min-width: map-get($screen_widths, md)) {
+			grid-column: span 2;
+			grid-row: span 2;
+			min-height: 440px;
+		}
+	}
+
+	&--tall {
+		@media (min-width: map-get($screen_widths, md)) {
+			grid-row: span 2;
+			min-height: 440px;
+		}
+	}
+
+	&--wide {
+		@media (min-width: map-get($screen_widths, md)) {
+			grid-column: span 2;
+		}
+	}
+}
+
+// Card content container
+.bento__content {
+	text-align: center;
+	position: relative;
+	z-index: 2;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+	pointer-events: none;
+
+	&__heading {
+		margin-bottom: 0.5rem;
+		font-weight: 700;
+	}
+
+	&__text {
+		margin-bottom: 1rem;
+		opacity: 0.9;
+		font-size: 0.9rem;
+	}
+
+	&__icon {
+		opacity: 0.8;
+		margin-bottom: 0.75rem;
+		
+		&--large {
+			font-size: 3rem;
+		}
+		
+		&--medium {
+			font-size: 2rem;
+		}
+	}
+
+	&__btn {
+		border-radius: 25px;
+		padding: 0.5rem 1.5rem;
+		font-weight: 600;
+		text-decoration: none;
+		display: inline-block;
+		transition: all 0.3s ease;
+		margin-top: auto;
+		align-self: center;
+		pointer-events: none;
+		opacity: 0.9;
+	}
+}
+
+// Event list styles
+.bento__events {
+	text-align: left;
+	margin-bottom: 1rem;
+	max-height: 150px;
+	overflow-y: auto;
+	padding-right: 5px;
+
+	&__item {
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		padding-bottom: 0.5rem;
+		margin-bottom: 0.5rem;
+
+		&:last-child {
+			border-bottom: none;
+			margin-bottom: 0;
+		}
+	}
+
+	&__date {
+		font-size: 0.75rem;
+		opacity: 0.7;
+		display: block;
+		margin-bottom: 2px;
+	}
+
+	&__title {
+		font-size: 0.85rem;
+		font-weight: 500;
+		margin: 0;
+	}
+}
+
+// Link wrapper
+.bento__link {
+	text-decoration: none;
+	color: inherit;
+	display: block;
+	
+	&:hover, &:focus, &:active {
+		text-decoration: none;
+		color: inherit;
+		outline: none;
+	}
+	
+	&:hover .bento__item {
+		transform: translateY(-5px);
+		box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+	}
+}
+
+// Background variations
+.bento__bg {
+	&--purple {
+		background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+		color: map-get($colors, text_light);
+	}
+
+	&--pink {
+		background: linear-gradient(135deg, #f55e98 0%, #f5576c 100%);
+		color: map-get($colors, text_light);
+	}
+
+	&--orange {
+		background: linear-gradient(135deg, #fcbb76 0%, #fcb69f 100%);
+		color: #333;
+		
+		.bento__content__btn {
+			background-color: #333;
+			color: white;
+			
+			&:hover {
+				background-color: darken(#333, 10%);
+			}
+		}
+	}
+
+	&--teal {
+		background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+		color: #333;
+		
+		.bento__content__btn {
+			background-color: #333;
+			color: white;
+			
+			&:hover {
+				background-color: darken(#333, 10%);
+			}
+		}
+	}
+}
+
+// Responsive adjustments for bento grid
+@media (max-width: 767px) {
+	.bento__grid {
+		grid-template-columns: 1fr;
+		gap: 1.25rem;
+	}
+
+	.bento__item {
+		min-height: 220px;
+		padding: 1.25rem;
+
+		&--large,
+		&--tall,
+		&--wide {
+			grid-column: span 1;
+			grid-row: span 1;
+			min-height: 250px;
+		}
+	}
+
+	.bento__content {
+		&__icon {
+			&--large {
+				font-size: 2rem;
+				margin-bottom: 0.5rem;
+			}
+			
+			&--medium {
+				font-size: 1.5rem;
+				margin-bottom: 0.5rem;
+			}
+		}
+		
+		&__heading {
+			font-size: 1.35rem;
+		}
+		
+		&__text {
+			margin-bottom: 0.75rem;
+		}
+		
+		&__btn {
+			padding: 0.4rem 1.25rem;
+			margin-top: 0.5rem;
+		}
+	}
+	
+	.bento__events {
+		max-height: 120px;
+	}
+}
