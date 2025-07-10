@@ -9,7 +9,7 @@
   external: false
 
 - title: "Call for Papers"
-  url: "/cfp/"
+  url: "/cfp.html"
   icon: "fas fa-microphone"
   background: "bento__bg--purple"
   text_color: ""
