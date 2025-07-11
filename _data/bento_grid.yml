@@ -58,6 +58,36 @@
   button_class: "btn-light"
   external: true
 
+- title: "LinkedIn"
+  url: "https://www.linkedin.com/company/hydpy/"
+  icon: "fab fa-linkedin"
+  background: "bg-primary"
+  text_color: "text-white"
+  description: "Connect with our professional network"
+  button_text: "Connect"
+  button_class: "btn-light"
+  external: true
+
+- title: "Instagram"
+  url: "https://www.instagram.com/hydpython/"
+  icon: "fab fa-instagram"
+  background: "bento__bg--teal"
+  text_color: "text-dark"
+  description: "Check out our visual updates"
+  button_text: "Follow"
+  button_class: "btn-dark"
+  external: true
+
+- title: "Meetup"
+  url: "https://www.meetup.com/HydPyGroup/"
+  icon: "fab fa-meetup"
+  background: "bg-danger"
+  text_color: "text-white"
+  description: "Join our local meetup events"
+  button_text: "Join"
+  button_class: "btn-light"
+  external: true
+
 - title: "Learn Python"
   url: "https://python.org"
   icon: "fab fa-python"
