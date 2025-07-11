@@ -88,6 +88,16 @@
   button_class: "btn-light"
   external: true
 
+- title: "Telegram"
+  url: "https://t.me/HydPy"
+  icon: "fab fa-telegram"
+  background: "bg-info"
+  text_color: "text-white"
+  description: "Join our community chat"
+  button_text: "Join Chat"
+  button_class: "btn-light"
+  external: true
+
 - title: "Learn Python"
   url: "https://python.org"
   icon: "fab fa-python"
